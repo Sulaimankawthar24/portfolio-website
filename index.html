@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.main.js"></script>
+    <script src="https://kit.fontawesome.com/234de0dee3.js"
+    crossorigin="anonymous"></script>
+    <title>portfolio</title>
+</head>
+<body class="bg-slate-50">
+    <header class="sticky z-5 top-0">
+        <section class="bg-pink-400 text-black text-[20px]">
+            <header class="sticky z-5 top-0">
+                <nav class="lg:flex justify-between items-center px-[50px] py-[30px] lg:px-[150px] lg:flex-row">
+                    <p class="flex text-[25px] lg:hidden"><i class="fa-solid fa-bars"></i></p>
+                    <h1 class="hidden text-[25px] font-bold lg:flex">Kawthar</h1>
+                    <ul class="hidden lg:flex gap-6">
+                        <a class="hover:text-red-600" href="#Home"><li>Home</li></a>
+                        <a class="hover:text-red-600" href="#About"><li>About</li></a>
+                        <a class="hover:text-red-600" href="#project"><li>Projects</li></a>
+                        <a class="hover:text-red-600" href="#Skill"><li>Skills</li></a>
+                        <a class="hover:text-red;600" href="#testimonial">Testimonials</a>
+                        <a class="hover:text-red-600" href="#contact"><li>Contact</li></a>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+    </header>
+
+    <main>
+        <section id="Home" class="px-[50px] mt-[80px] lg:px-[200px] lg:mt-[150px] flex flex-col-reverse lg:flex-row justify-between items-center gap-[20px] lg:gap-[120px]">
+            <div class="flex flex-col gap-6 items-start">
+                <h1 class="text-[28px] font-bold">Hello👋, I'm a frontend developer</h1>
+                <p class="text-[20px] text-justify">
+                   A web designer and developer from Nigeria. I create custom websites to help businesses do better online.
+                   I design and build web interface.
+                </p>
+                 <a  class="bg-pink-400 hover:bg-black rounded-lg hover:text-white hover:duration-700 hover:ease-in-out text-[20px] font-bold p-4 w-[160px]" href="https://drive.google.com/file/d/1SrGbAKing-8zx2LSem8B37DgSvA0LPTy/view?pli=1">Download cv</a>
+            </div>
+            <img class="w-[250px] h-[250px] rounded-full lg:w-[400px] lg:h-[400px] lg:rounded-lg" src="./img/kawthar.img.jpg" alt="image">
+        </section>
+
+        <section id="About">
+            <div class="my-24 py-24 bg-pink-400">
+                <h2 class="text-3xl font-bold text-blue-700">About me</h2>
+                <div class="container mx-auto">
+                    <img class="w-[250px] h-[250px] rounded-full lg:w-[400px] lg:h-[400px] lg:rounded-lg" src="img/amura.jpg" alt="amura">  
+                    <h2>my name is kawthar Sulaiman</h2>
+                    <p class="text-[20px] text-justify">
+                        I am a software engineer, aspiring frontend developer.
+                         A fellow of <strong>TIIDELAB</strong> fellowship cohort 5.
+                        I am a certified chef and I love to explore.
+                         A graduate of Health promotion and environmental health education.I create custom websites to help businesses do better online.
+                         I design and build web interface.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Skill" >
+            <h2 class="text-3xl font-bold text-blue-700">Skills</h2>
+            <div class="bg-slate-700 py-24 grid grid-cols-3 gap-4">
+                <img src="img/data.jpg" alt="ig">
+                <img src="img/js.png" alt="ig">
+                <img src="img/html-5.png" alt="ig">
+            </div>
+        </section>
+
+        <section id="testimonial">
+            <div class="my-24 py-24 bg-pink-400">
+                <h2 class="text-3xl font-bold text-blue-700">Testimonials</h2>
+                <div class="grid grid-cols-3 gap-4">
+                    <div>
+                        <img class="w-60 rounded-full mx-auto" src="img/woman.jpg" alt="woman">
+                        <p>Simple To use
+                            i found it very easy to do upsell and cross-sell products. It's very simple and easy to use. Thanks for a very good product.
+                        </p>
+                    </div>
+                    <div>
+                        <img class="w-60 rounded-full mx-auto" src="img/female.jpg" alt="female">
+                        <p>Staying at Hotel Deedee was an absolute delight! The staff went above and beyond to ensure our comfort and satisfaction. The rooms were spacious, beautifully furnished, and impeccably clean. The attention to detail throughout the hotel was truly remarkable. The location was perfect, with easy access to all the major attractions and fantastic dining options.</p>
+                    </div>
+                    <div>
+                        <img class="w-60 rounded-full mx-auto" src="img/oyinbo.jpg" alt="oyinbo">
+                        <p>Kawthar has been pivotal in helping me better understand the competitive landscape of my ad campaigns. I have been able to close the gap between my organic and paid efforts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="project">
+          <h2 class="text-3xl font-bold bg-pink-400 py-2 text-blue-700">Projects</h2>
+          <div class="container mx-auto">
+            <div class="grid grid-cols-3 gap-6">
+              <a href="https://linkedln.com"><img src="img/project.jpg.png" alt="project"></a>
+              <a href="https://twitter.com"><img src="img/hotel.jpg" alt="hotel"></a>
+              <a href="https://linkedln.com"><img src="img/contact.jpg.png" alt="contact"></a>
+            </div>
+         </div>
+      </section>
+      
+
+      <section id="contact" class="py-24">
+        <h2 class="text-3xl font-bold text-blue-700">contact</h2>
+        <div class=" container mx-auto">
+            <div class="pb-5" >
+                <label for="fullname" name="name">fullname</label>
+                <input type="text" id="fname" name="fullname"  placeholder="Your name" class="w-full p-2 border border-pink-400">
+            </div>
+            <div class="pb-5">
+                <label for="email" name="email">email</label>
+                <input type="email" id="email" name="email" placeholder="email" required  class="w-full p-2 border border-pink-400">
+            </div>
+            <div class="pb-5">
+                <label for="message">message</label>
+                <textarea id="message" name="message" placeholder="write something" class="h-[200px]w-full p-2 border border-pink-400"></textarea>
+            </div>
+        </div>
+        <div> 
+        <a href="https://twitter.com"><i class='bx bxl-twitter'></i></a>
+        <a href="https://hashnode.com"><i class='bx bxl-blogger'></i></a>
+        <a href="https://linkedin.com"><i class='bx bxl-linkedin-square'></i></a>
+        <a href="https://github.com"><i class='bx bxl-github'></i></a>
+        </div>
+    </section>
+    <footer class="bg-pink-400">
+        <p class="text-center">copyright &copy;</p>
+       </footer>
+
+    <script>
+        $(document).ready(function() {
+          
+          $('a[href^="#"]').on('click', function(event) {
+            event.preventDefault();
+            var target = $(this.getAttribute('href'));
+            if (target.length) {
+              $('html, body').stop().animate({
+                scrollTop: target.offset().top - 100
+              }, 1000); 
+            }
+          });
+        });
+      </script>
+      
+</body>
+</html>
+              
+               
